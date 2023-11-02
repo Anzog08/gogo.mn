@@ -689,9 +689,26 @@
 }
 
 .komik {
-  width: 100%;
+  display: flex;
+
+  width: 1180px;
+  height: 380px;
+}
+.comic1 {
+  display: flex;
+  flex-direction: column;
+  width: 542.5px;
   height: 300px;
-  background-color: purple;
+}
+.comic2 {
+  display: flex;
+  flex-direction: column;
+  width: 542.5px;
+  height: 300px;
+}
+.img9 {
+  width: 100%;
+  height: 200px;
 }
 .watch {
   width: 100%;
